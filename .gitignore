@@ -1,0 +1,37 @@
+src/*.exe
+src/kappacoin
+src/kappacoind
+src/test_kappacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.kappacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+kappacoin-qt
+KappaCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+kappacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
+.cproject
+.project
+

@@ -1,0 +1,9 @@
+Building KappaCoin
+
+See doc/readme-qt.rst for instructions on building KappaCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of KappaCoin.
+
+See doc/build-*.txt for instructions on building kappacoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of KappaCoin.
